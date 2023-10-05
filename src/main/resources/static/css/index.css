@@ -1,0 +1,38 @@
+body {
+	background-image: url(../images/wallpaper.jpg);		 
+	
+}
+
+#functionBar {
+	 	
+ 	 background-color: gray; 
+ 	 
+}
+
+#functionBar a { 	 
+ 	 color: black; 
+ 	 font-size: 24px;	
+}
+
+
+#home_img{
+   		width: 30px;
+   		height: 30px;   		
+}
+   	
+#selfIntro_img{
+   		width: 30px;
+   		height: 30px;
+}  
+#project_img {
+	    width: 30px;
+   		height: 30px;
+}
+
+
+
+#bottomInfo a { 	
+ 	 text-align: center;  	 
+ 	 color: black; 
+ 	 font-size: 14px;	
+}
