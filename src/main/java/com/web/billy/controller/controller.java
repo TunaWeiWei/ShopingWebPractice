@@ -19,5 +19,10 @@ public class controller {
 	@GetMapping("/buyingPage")
     public String buyingPage() {
         return "buyingPage";
+	}
+	
+	@GetMapping("/shopingCart")
+    public String shopingCart() {
+        return "shopingCart";
 	}	
 }
