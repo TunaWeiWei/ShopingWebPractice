@@ -56,11 +56,17 @@
 	<form>
   	  <fieldset>
   	      <table>
-   	        <tr>
-   	           <th><span th:text="${產品名}"></th>                    
-    	       <td><span th:text="${產品數量}"></span> </td>
-        	</tr>
-       	 </table>
+        <tr>
+            <th>產品名稱</th>
+            <th>數量</th>
+            <th>價錢</th>
+        </tr>
+        <tr th:each="shopingCart : ${session}">
+            <td th:text="${shopingCart.cart_productName}"></td>
+            <td th:text="${shopingCart.cart_productAmounts}"></td>
+            <td th:text="${shopingCart.cart_productPrice}"></td>
+        </tr>
+    </table>
     	</fieldset>
 	</form>
 	<form>
